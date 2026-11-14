@@ -1550,4 +1550,8 @@ def home():
         autoBoot();
     </script>
 </body>
-</html>
+</html>"""
+@app.get("/")
+def home():
+  return HTMLResponse(content=HTML_APP)
+    
