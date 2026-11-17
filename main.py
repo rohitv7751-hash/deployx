@@ -563,7 +563,7 @@ def forgot_password_request(data: ForgotRequestPayload):
     
     # --- PROFESSIONAL INSTAGRAM/META STYLE HTML EMAIL ---
     smtp_server = "smtp-relay.brevo.com"
-    smtp_port = "587"
+    smtp_port = "465"
     sender_email = "rohit7751@gmail.com"
     smtp_password = "xsmtpsib-13fdcdd250dec0ea41bb5832a30379b28bc5271d81c2761e390804a747c5398f-K9EcSKWgOmK9aRHS"
 
